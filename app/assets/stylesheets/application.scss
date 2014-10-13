@@ -1,0 +1,43 @@
+.coins {
+  padding: 2em 0;
+}
+
+.clr {
+  clear: both;
+}
+
+.coin {
+  width: 55px;
+  float: left;
+  margin-right: 2em;
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 2em;
+
+}
+
+.answer {
+  clear: both;
+  margin-top: 2em;
+}
+
+.user-ans {
+  font-size: 2em;
+  padding: .5em;
+  color: #757575;
+}
+
+.check-button {
+  font-size: 2em;
+  margin-left: 1em;
+  padding: 0.6em;
+  background: #008000;
+  color: #FFF;
+  border: none;
+}
+
+.correct-image {
+  vertical-align: middle;
+  margin-bottom: 2em;
+  margin-right: 3em;
+}
