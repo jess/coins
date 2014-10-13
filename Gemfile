@@ -7,6 +7,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'spring',        group: :development
 
+gem 'rails_12factor', group: :production
+
 gem 'ember-rails'
 gem 'ember-source'
 gem 'emblem-rails'
