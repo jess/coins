@@ -1,0 +1,21 @@
+Test Your Coin Knowledge
+-------------------------------------------------------
+
+This is an ember app (using ember rails). I created in an attempt to
+learn more about ember.
+
+My son is in 2nd grade and is learning how to count money, specifically
+coins. For extra practice, we needed a way to simulate the tests that
+give 3-10 coins in random order and the student has to sum the value of
+all the coins.
+
+In this project, Each coin is an Ember Object. We generate a random
+number between 3 and 10 to get the number of coins. For each coin we
+then randomly select a (penny, nickel, dime, or quarter) for each type
+coin. 
+
+The result is evaluated and if correct the user can create another
+selection. If incorrect the user gets an unlimited number of tries.
+
+My name is Jess Brown and I work for [www.brownwebdesign.com](http://www.brownwebdesign.com) 
+You can find me on twitter at [@BrownWebDesign](http://www.twitter.com/BrownWebDesign)

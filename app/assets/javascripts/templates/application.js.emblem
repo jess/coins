@@ -1,1 +1,6 @@
 outlet
+
+p style="margin-top: 5em;"
+=link-to 'About' 'about'
+|  | 
+=link-to 'Home' 'application'
