@@ -1,5 +1,9 @@
 h1 Test your coin knowledge
 hr
+.sorting
+  a href="#" click='getNewProblem' Refresh
+  |  | 
+  a href="#" click='sort' Shuffle
 if correctAnswer
   img class='correct-image' width="150" src="http://images.sodahead.com/polls/003894027/2459859249_correct_mark_md_answer_1_xlarge.png"
   button click='getNewProblem' class="check-button" Do Another

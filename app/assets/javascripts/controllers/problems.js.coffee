@@ -5,6 +5,16 @@ App.ProblemsController = Ember.ArrayController.extend
 
   actions:
 
+    sort: ->
+      newModel = _.shuffle(@get('model'))
+      newOrder = newModel.map((coin) -> return coin.name).toString()
+      oldOrder = @get('model').map((coin) -> return coin.name).toString()
+      while newOrder == oldOrder
+        newModel = _.shuffle(@get('model'))
+        newOrder = newModel.map((coin) -> return coin.name).toString()
+
+      @set('model', newModel)
+
     solveAns: ->
       total = @get('total').toString()
       ans = @get('userAns').toString()
