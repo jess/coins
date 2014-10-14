@@ -14,5 +14,5 @@ if incorrectAnswer
   p Please Try Again
 unless correctAnswer
   .answer
-    =student-answer value=userAns class="user-ans" placeholder="How many cents?"
+    =student-answer action='solveAns' value=userAns class="user-ans" placeholder="How many cents?"
     button click='solveAns' class='check-button' Go

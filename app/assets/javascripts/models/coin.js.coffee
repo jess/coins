@@ -16,6 +16,9 @@ App.Coin = Ember.Object.extend
       val += c.value
     val
 
+  refresh: ->
+    @collection = []
+
   random: ->
 
     if @collection.length > 0

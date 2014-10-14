@@ -17,4 +17,10 @@ App.ProblemsController = Ember.ArrayController.extend
         $('.user-ans').focus()
 
     getNewProblem: ->
-      location.reload()
+      @send('refresh')
+      @set('incorrectAnswer', false)
+      @set('correctAnswer', false)
+      @set('userAns', '')
+      $('.user-ans').focus()
+      #@transitionToRoute('problems')
+      #location.reload()
